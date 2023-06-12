@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>FULL RESPONSIVE FORM</title>
+</head>
+<body>
+    <div class="container">
+        <div class="title-section">Registration</div>
+        <form action="#">
+            <div class="user-details">
+                <div class="input-box">
+                    <label for="" class="details">Full Name</label>
+                    <input type="text" placeholder="Enter your name" required>
+                </div>
+                <div class="input-box">
+                    <label for=""class="details">Username</label>
+                    <input type="text" placeholder="Enter your username" required>
+                </div>
+                <div class="input-box">
+                    <label for=""class="details">Email</label>
+                    <input type="email" placeholder="Enter your email" required>
+                </div>
+                <div class="input-box">
+                    <label for=""class="details">Phone Number</label>
+                    <input type="text" placeholder="Enter your number" required>
+                </div>
+                <div class="input-box">
+                    <label for=""class="details">Password</label>
+                    <input type="text" placeholder="Enter your password" required>
+                </div>
+                <div class="input-box">
+                    <label for=""class="details">Confirm Password</label>
+                    <input type="text" placeholder="Enter your confirm password" required>
+                </div>
+            </div>
+            <fieldset class="gender">
+                <legend>Gender</legend>
+
+                <div class="gender-details">
+                    <input type="radio" id="contactChoice1" name="contact" value="email" />
+                    <label for="contactChoice1"class="gender-title">Male</label>
+              
+                    <input type="radio" id="contactChoice2" name="contact" value="phone" />
+                    <label for="contactChoice2"class="gender-title">Female</label>
+              
+                    <input type="radio" id="contactChoice3" name="contact" value="mail" />
+                    <label for="contactChoice3"class="gender-title">Other</label>
+                  </div>
+            </fieldset>
+            <div class="button">
+                <input type="submit" value="Register">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
